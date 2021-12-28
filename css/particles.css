@@ -1,0 +1,218 @@
+/* ---- particles.js container ---- */
+
+#particles-js {
+  width: 100%;
+  height: 90vh;
+  /*     background-color: #2E9ADB;
+  background-image: url('../img/wave/wave.png'); 
+    background-size: cover; */
+
+  background: #2E9ADB;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  top: 2px;
+  bottom: 0;
+}
+#particles-js2 {
+  width: 100%;
+  height: 100vh;
+  /*     background-color: #2E9ADB;
+  background-image: url('../img/wave/wave.png'); 
+    background-size: cover; */
+
+    background: rgb(46,154,219);
+    background: linear-gradient(180deg, rgba(46,154,219,1) 0%, rgba(85,181,112,1) 100%); 
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.bgimg {
+  position: absolute;
+  background: url(../img/bg.png);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation: bgimg 30s linear infinite;
+  background-size: 1000px 100vh;
+}
+
+@keyframes bgimg {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+/* ---- particles.js container Wave---- */
+
+section {
+  position: relative;
+}
+
+.wave-general .wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(../img/wave/wave.png);
+  background-size: 1000px 100px;
+  z-index: 19;
+}
+
+.wave-general .wave.wave1 {
+  animation: animate 30s linear infinite;
+  z-index: 18;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: -2px;
+}
+
+.wave-general .wave.wave2 {
+  animation: animate2 15s linear infinite;
+  z-index: 17;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+
+.wave-general .wave.wave3 {
+  animation: animate 30s linear infinite;
+  z-index: 16;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+
+.wave-general .wave.wave4 {
+  animation: animate2 5s linear infinite;
+  z-index: 15;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+
+/* wawes 4 */
+.section-comment {
+  position: relative;
+}
+.wave-generalQ .waveQ {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(../img/wave/wave.png);
+  transform: rotateX(180deg);
+  background-size: 1000px 100px;
+  z-index: 10;
+}
+
+.wave-generalQ .waveQ.wave1 {
+  animation: animate 30s linear infinite;
+  z-index: 18;
+  opacity: 1;
+  animation-delay: 0s;
+  top: 0px;
+}
+
+.wave-generalQ .waveQ.wave2 {
+  animation: animate2 15s linear infinite;
+  z-index: 17;
+  opacity: 0.5;
+  animation-delay: -5s;
+  top: 10px;
+}
+
+.wave-generalQ .waveQ.wave3 {
+  animation: animate 3s linear infinite;
+  z-index: 16;
+  opacity: 0.2;
+  animation-delay: -2s;
+  top: 15px;
+}
+
+.wave-generalQ .waveQ.wave4 {
+  animation: animate2 5s linear infinite;
+  z-index: 15;
+  opacity: 0.7;
+  animation-delay: -5s;
+  top: 20px;
+}
+
+@keyframes animate {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: 1000px;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    background-position-x: 0;
+  }
+
+  100% {
+    background-position-x: -1000px;
+  }
+}
+
+/* wawes 1 */
+.wave-generalS .waveS {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: url(../img/wave/wave.png);
+  background-size: 1000px 100px;
+  z-index: 19;
+}
+
+.wave-generalS .waveS.wave1 {
+  animation: animate 30s linear infinite;
+  z-index: 18;
+  opacity: 1;
+  animation-delay: 0s;
+  bottom: -2px;
+}
+
+.wave-generalS .waveS.wave2 {
+  animation: animate2 15s linear infinite;
+  z-index: 17;
+  opacity: 0.5;
+  animation-delay: -5s;
+  bottom: 10px;
+}
+
+.wave-generalS .waveS.wave3 {
+  animation: animate 30s linear infinite;
+  z-index: 16;
+  opacity: 0.2;
+  animation-delay: -2s;
+  bottom: 15px;
+}
+
+.wave-generalS .waveS.wave4 {
+  animation: animate2 5s linear infinite;
+  z-index: 15;
+  opacity: 0.7;
+  animation-delay: -5s;
+  bottom: 20px;
+}
+
+/* wawes 4 */
+
